@@ -20,22 +20,29 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+*show current working directory path: pwd
+*creating a directory: mkdir <directoryname>
+*deleting a directory: rmdir <directoryname>
+*creating a file using 'touch' command: touch <filename>
+*deleting a file: rm <filename>
+*renaming a file: mv <filename1> <filename2>
+*listing hidden files: ls -a
+*copying a file from one directory to another: cp <sourcedir> <enddir>
+*listing files by file size: ls -S
+*change directory: cd <directory>
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`  : list files
+`ls -a`  : listing hidden files
+`ls -l`  :list files in long format - show permissions
+`ls -lh`  : list hidden files in long format with readable file size
+`ls -lah`  : list files including hidden files in long format with readable file size
+`ls -t`  : list newest files first based on timestamp
+`ls -Glp`: lists the detials fo the long format listing,not to display group and displayes the directories with a slash
 
 ---
 
@@ -43,7 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -R: lists subdirectories
+ls -x: displays files as rows across the screen
+ls -1: displays each entry on a line
+ls -m: displays the names as a comma separated list
+ls -c: displays files by file timestamp
 
 ---
 
@@ -51,7 +62,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+xargs - builds and executes command lines from standard input
+example: printf "1\n2\n3\n" | xargs touch
+ls 
+1,2,3
+-creates 3 files named 1, 2 and 3
  
 
