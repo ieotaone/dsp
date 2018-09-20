@@ -20,9 +20,9 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-*show current working directory path: pwd
-*creating a directory: mkdir <directoryname>
-*deleting a directory: rmdir <directoryname>
+*show current working directory path: pwd**
+*creating a directory: mkdir <directoryname>**
+*deleting a directory: rmdir <directoryname>**
 *creating a file using 'touch' command: touch <filename>
 *deleting a file: rm <filename>
 *renaming a file: mv <filename1> <filename2>
