@@ -6,12 +6,16 @@
 %matplotlib inline  
 import numpy as np  
 import nsfg  
-import first 
+import first
 
+CohenEffectSize(firsts.prglngth, others.prglngth)
+```
+0.028879044654449883  
+
+```  
 firsts.totalwgt_lb.mean(),others.totalwgt_lb.mean()
 ```
 (7.201094430437772, 7.325855614973262)
-
 ```
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)  
 ```
@@ -19,5 +23,6 @@ CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 ```
 CohenEffectSize(firsts.prglngth, others.prglngth) - CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)  
 ```
-0.1175519717270519  \
-The value is almost 4 times the difference in pregnancy length  
+0.1175519717270519   
+
+The value of the difference in groups is almost 4 times the difference in pregnancy length  
