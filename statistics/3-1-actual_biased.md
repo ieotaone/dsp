@@ -19,11 +19,28 @@ hist = thinkstats2.Hist(ct.numkdhh, label='numkdhh')
 thinkplot.Hist(hist)
 thinkplot.Config(xlabel='Count of children under 18', ylabel='Count')
 ```
-
-/Users/ginachung/Desktop/Screen Shot 2018-11-24 at 5.40.41 PM.png
+![image](/graph.jpg)
 
 
 ```thinkplot.Pmf(pmf)
-thinkplot.Config(xlabel='Count of children under 18', ylabel='Pmf')```
+thinkplot.Config(xlabel='Count of children under 18', ylabel='Pmf')
+```
 
+![image](/graph2.jpg)
+
+```
+biased_pmf = BiasPmf(pmf, label='bias')
+thinkplot.PrePlot(2)
+thinkplot.Pmfs([pmf, biased_pmf])
+thinkplot.Config(xlabel='Count of children under 18', ylabel='PMF')
+```
+
+![image](/graph3.jpg)
+
+```
+print('Actual mean', pmf.Mean())
+print('Biased mean', biased_pmf.Mean())
+```
+Actual mean 1.024205155043831  
+Observed mean 2.403679100664282
 
