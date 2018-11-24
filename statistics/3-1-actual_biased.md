@@ -20,7 +20,7 @@ thinkplot.Hist(hist)
 thinkplot.Config(xlabel='Count of children under 18', ylabel='Count')
 ```
 ![image](dsp/statistics/graph.jpg)
-
+![GitHub Logo](/https://github.com/ieotaone/dsp/blob/master/statistics/graph.jpg)
 
 ```thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Count of children under 18', ylabel='Pmf')
