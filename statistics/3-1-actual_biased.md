@@ -19,14 +19,14 @@ hist = thinkstats2.Hist(ct.numkdhh, label='numkdhh')
 thinkplot.Hist(hist)
 thinkplot.Config(xlabel='Count of children under 18', ylabel='Count')
 ```
-![image](dsp/statistics/graph.jpg)
-![GitHub Logo](/https://github.com/ieotaone/dsp/blob/master/statistics/graph.jpg)
+#![image](dsp/statistics/graph.jpg)
+![image](/https://github.com/ieotaone/dsp/blob/master/statistics/graph.jpg)
 
 ```thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Count of children under 18', ylabel='Pmf')
 ```
 
-![image](/graph2.jpg)
+![image](https://github.com/ieotaone/dsp/blob/master/statistics/graph.jpg)
 
 ```
 biased_pmf = BiasPmf(pmf, label='bias')
