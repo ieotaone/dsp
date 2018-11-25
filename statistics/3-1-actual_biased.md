@@ -20,13 +20,13 @@ thinkplot.Hist(hist)
 thinkplot.Config(xlabel='Count of children under 18', ylabel='Count')
 ```
 #![image](dsp/statistics/graph.jpg)
-![image](/https://github.com/ieotaone/dsp/blob/master/statistics/graph.jpg)
+![image](https://github.com/ieotaone/dsp/blob/master/statistics/graph.jpg)
 
 ```thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Count of children under 18', ylabel='Pmf')
 ```
 
-![image](https://github.com/ieotaone/dsp/blob/master/statistics/graph.jpg)
+![image](https://github.com/ieotaone/dsp/blob/master/statistics/graph2.jpg)
 
 ```
 biased_pmf = BiasPmf(pmf, label='bias')
@@ -35,7 +35,7 @@ thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Count of children under 18', ylabel='PMF')
 ```
 
-![image](/graph3.jpg)
+![image](https://github.com/ieotaone/dsp/blob/master/statistics/graph3.jpg)
 
 ```
 print('Actual mean', pmf.Mean())
